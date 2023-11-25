@@ -16,6 +16,7 @@ public class UserDao {
             return addedStatus;
         }
         userList.add(user);
+        addedStatus = true;
 
         return addedStatus; // returns whether addition was successful
     }
